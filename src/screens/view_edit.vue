@@ -1,0 +1,22 @@
+<script setup>
+import headers from '../components/header.vue'
+import footers from '../components/footer.vue'
+import sidebar from '../components/sidebar.vue'
+import bodys from '../components/bodyComp/viewbody.vue'
+
+</script>
+<template>
+  <headers />
+  <div class="flex min-h-screen">
+    <sidebar />
+
+    <div class="flex-1">
+
+
+      <bodys />
+
+    </div>
+  </div>
+  <footers />
+
+</template>
